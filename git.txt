@@ -1,0 +1,8 @@
+cd /c
+git config --global user.name "aranya3"
+git config --global user.email aranya.biswas@outlook.com
+git clone https://github.com/aranyaIBM1/POM.git
+git add test.txt
+git status
+git commit -m "first commit" test.txt
+git push -u origin master
